@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.scss'
+import './Home.css'
 import HeroBanner from '../../Components/Home/HeroBanner/HeroBanner'
 import Trending from '../../Components/Home/Trending'
 import Popular from '../../Components/Home/Popular'

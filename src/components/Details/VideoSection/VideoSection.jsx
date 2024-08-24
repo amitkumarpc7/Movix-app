@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./VideoSection.scss"
+import "./VideoSection.css"
 import ContentWrapper from "../../Common/ContentWrapper/ContentWrapper";
 import VideoPopup from "../../Common/VideoPopup/VideoPopup";
 import Img from "../../Common/lazyLoadImage/Img";

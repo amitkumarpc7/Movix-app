@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Header.scss";
+import "./Header.css";
 import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
