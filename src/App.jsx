@@ -10,6 +10,7 @@ import Explore from './pages/Explore/Explore';
 import PageNotFound from './pages/404/PageNotFound';
 // import Header from './Components/Common/Header/Header.jsx'
 import Footer from './Components/Common/Footer/Footer.jsx'
+import Header from './Components/Common/Header/Header.jsx'
 
 
 
@@ -55,7 +56,7 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-      {/* <Header/> */}
+      <Header/>
         <Routes>
           <Route path='/' element={<Home/> }/>
           <Route path='/:mediaType/:id' element={<Details/> }/>
